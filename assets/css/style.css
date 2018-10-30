@@ -1,0 +1,204 @@
+body, html{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	color: grey
+}
+#logo-brand{
+	width: auto;
+	height: 7vh
+}
+.lighten{
+	font-size: 27px;
+}
+.wush{
+	font-size: 50px;
+	font-family: times new roman;
+	color: black
+}
+p{
+	margin-bottom: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	font-variant-ligatures: none;
+}
+.nav-tabs>li>a{
+	padding: 15px !important
+}
+.caption{
+	color:#183d7f
+}
+.f-16{
+	font-size: 16px
+}
+.ar-tabs{
+	font-size: 18px
+}
+.ar-tabs-list li{
+	font-weight: 300;
+	line-height: 1.8;
+	font-variant-ligatures: none;
+}
+.pad-none{
+	padding: 0 !important
+}
+.mar-none{
+	margin: 0 !important
+}
+.link{
+	text-decoration: none !important;
+}
+.btn{
+	border-radius: 0 !important
+}
+.min{
+	list-style: none;
+}
+.min li::before{
+	content: "- ";
+	color: #183d7f;
+	font-weight:bold;
+}
+.panel{
+	margin-top: 8px
+}
+.list li{
+	list-style: none;
+	display: inline;
+	padding: 10px 15px
+}
+.list li a{
+	text-decoration: none;
+}
+.bg-grey{
+	background: #f3f3f3
+}
+.bg-white{
+	background: white !important
+}
+.tech tr td{
+	border: 0.2px solid #dadada;
+	padding: 8px !important
+}
+.box-news{
+	margin-top: 20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 10px !important;
+	max-height: 300px;
+	overflow-y: scroll;
+}
+.bg-dk-grey{
+	background: #383a35
+}
+.clr-grey{
+	color: #b7b7b7 !important
+}
+.clr-white{
+	color: white !important
+}
+.clr-red{
+	color: #E93824 !important
+}
+.clr-lt-blue{
+	color: #2CAAE2 !important
+}
+.clr-purple{
+	color: #6A3490 !important
+}
+.clr-dk-blue{
+	color: #24408E !important
+}
+.clr-orange{
+	color: #ED6F00 !important
+}
+.clr-yellow{
+	color: #FEC238 !important
+}
+.clr-pink{
+	color: #EF5792 !important
+}
+.list-news{
+	margin-top: 15px
+}
+.list-cat{
+	list-style: none;
+}
+.list-cat li::before{
+	content: "■ ";
+	font-size: 18px;
+}
+.red li::before{
+	color: #E93824 !important
+}
+.lt-blue li::before{
+	color: #2CAAE2 !important
+}
+.dk-blue li::before{
+	color: #24408E !important
+}
+.orange li::before{
+	color: #ED6F00 !important
+}
+.purple li::before{
+	color: #6A3490 !important
+}
+.yellow li::before{
+	color: #FEC238 !important
+}
+.pink li::before{
+	color: #EF5792 !important
+}
+pre{
+	margin-top: 30px;
+	max-height: 650px;
+	overflow-y: scroll;
+}
+.form-enterprise{
+	margin-top: 20px;
+	padding: 15px 0 !important
+}
+.box-brand{
+	margin-top: 25px;
+	padding-bottom: 75px !important
+}
+.title-row{
+	padding: 25px
+}
+footer .row{
+	margin-top: 50px;
+	padding-bottom: 50px
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	padding: 5px 0 !important;
+}
+footer hr{
+	width: 100%;
+	opacity: 0.5
+}
+.footer-menu{
+	padding-top: 30px !important;
+	padding-bottom: 60px !important;
+}
+.sosmed a{
+	padding: 0 10px !important
+}
+.sosmed a:hover{
+	color: white !important
+}
+
+@media only screen and (max-width: 768px){
+	#logo-brand{
+		height: 4vh
+	}
+	.wush{
+		font-size: 30px
+	}
+	.panel-tab{
+		padding: 0px !important
+	}
+	.dropdown-menu>li>a{
+		color: grey !important;
+		font-size: 14px;
+	}
+}
